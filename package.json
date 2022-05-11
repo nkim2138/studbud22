@@ -2,10 +2,12 @@
   "name": "studbud22",
   "version": "1.0.0",
   "description": "Web application for studying",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./public/index/html",
+    "dev": "parcel serve ./public/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,12 @@
   "homepage": "https://github.com/nkim2138/studbud22#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.13",
+    "sass": "^1.51.0"
   }
 }
