@@ -1,0 +1,19 @@
+{
+  "name": "studbud22",
+  "version": "1.0.0",
+  "description": "Web application for studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkim2138/studbud22.git"
+  },
+  "author": "Ngo Bui Kim Anh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkim2138/studbud22/issues"
+  },
+  "homepage": "https://github.com/nkim2138/studbud22#readme"
+}
