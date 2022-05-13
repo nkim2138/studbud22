@@ -1,0 +1,23 @@
+/*importing fonts I need for the web app*/
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*setting fonts*/
+p {
+    font-family: "Biryani";
+}
+
+/*styling list*/
+.top-nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}

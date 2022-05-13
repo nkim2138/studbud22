@@ -1,9 +1,29 @@
+@import "https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&display=swap";
 body {
   background-color: #fafafa;
 }
 
 nav {
   display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Biryani;
+}
+
+.top-nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */
