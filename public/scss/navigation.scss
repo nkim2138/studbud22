@@ -1,3 +1,13 @@
 nav {
     display: flex;
 }
+
+// setting a border line below
+.top-nav {
+    border-bottom: 1px solid #E5EAF1;
+}
+
+// have the nav bar horizontal
+li {
+    display: inline-block;
+  }

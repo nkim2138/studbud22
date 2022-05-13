@@ -1,10 +1,18 @@
-@import "https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&display=swap";
 body {
   background-color: #fafafa;
+  margin: 10px;
 }
 
 nav {
   display: flex;
+}
+
+.top-nav {
+  border-bottom: 1px solid #e5eaf1;
+}
+
+li {
+  display: inline-block;
 }
 
 * {
@@ -16,14 +24,27 @@ p {
   font-family: Biryani;
 }
 
-.top-nav ul li {
+h4 {
+  font-family: Gotham;
+  font-size: 16px;
+}
+
+a {
+  padding: 0;
+}
+
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 li {
-  display: inline;
+  padding-right: 10px;
+}
+
+.weekly-goal {
+  float: inline-end;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */
