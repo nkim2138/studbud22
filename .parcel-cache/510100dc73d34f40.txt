@@ -1,4 +1,4 @@
-4969
+4972
 83C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\cookie132967464511683138 1
 98C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss\lib\parser.js132967522243236619 0
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\has-symbols\test\tests.js132967464512017208 0
@@ -26,11 +26,6 @@
 126C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\runtime-js\src\helpers\node\css-loader.js132967493178152451 0
 91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\object-inspect132967464514260774 1
 97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\browserslist\LICENSE132967493148525953 0
-86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\style.scss132969317125066753 0
-104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\svgo\plugins\mergeStyles.js132967493162123362 0
-133C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js132967493149830862 0
-108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\reporter-dev-server\src132967493195495517 1
-97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\yaml\browser\util.js132967493165454922 0
 118C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\type-fest\source\require-exactly-one.d.ts132967493159987766 0
 127C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\node_modules\entities\lib\encode.js132967493191864758 0
 128C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\htmlnano\lib\modules\collapseAttributeWhitespace.js132967493139529863 0
@@ -39,6 +34,8 @@
 106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\src\_inherits.js132967493173230159 0
 115C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\src\isDirectoryInside.js132967493196226572 0
 119C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\posthtml\node_modules\posthtml-parser\dist132967493195565325 1
+95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lmdb\src\lmdb-js.h132967493172961438 0
+87C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\kanban.scss132986632047854326 0
 119C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\packager-js\src\CJSOutputFormat.js132967493182665220 0
 96C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\readdirp\index.d.ts132967506249557079 0
 74C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\.gitignore132967467397392145 0
@@ -57,8 +54,11 @@
 84C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\destroy132967464511108571 1
 93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\unpipe\README.md132967464509809024 0
 93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\bytes\History.md132967464510687078 0
-68C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist132969218070443303 1
+68C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist132986622402380396 1
 99C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\path-type\package.json132967493130883814 0
+98C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\.github132967464512643486 1
+113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-svg\package.json132967493164636449 0
+86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\popup.scss132986590816400884 0
 93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\fresh\HISTORY.md132967464511013050 0
 120C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\readonly-attr.js132967493200523884 0
 77C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\images132969187261555372 1
@@ -114,36 +114,43 @@
 125C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\navigator-language.js132967493195045881 0
 117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\autoprefixer\lib\hacks\grid-row-align.js132967522243446034 0
 112C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\terser\lib\compress\tighten-body.js132967493166952011 0
-70C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public132968967747873147 1
+70C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public132986577922785102 1
+111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\object-inspect\example\circular.js132967464511583392 0
 91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\yaml\util.d.ts132967493167161454 0
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\workers\package.json132967493169356019 0
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\cosmiconfig\dist\loaders.js132967493140897463 0
-111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\object-inspect\example\circular.js132967464511583392 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\binary-extensions132967506249568025 1
-81C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.html132969216894212859 0
+81C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.html132986624337535750 0
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\source-map-js\lib\binary-search.js132967506257879961 0
+118C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\src\generateBuildMetrics.js132967493189566884 0
+97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\http-errors\index.js132967464510657154 0
+129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\lib\_class_private_field_destructure.js132967493160535771 0
+91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\source-map\lib132967493155206268 1
+108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\BB.js132967493166668903 0
+84C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss132967522244054409 1
+93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\tslib\tslib.d.ts132967493141941837 0
+95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\js-tokens\index.js132967493132360226 0
+85C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\resources.html132986580726683919 0
+105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\whatwg-url\lib\urlencoded.js132967493136315668 0
 124C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\lib\_class_apply_descriptor_set.js132967493157586259 0
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\terser\lib\equivalent-to.js132967493161678148 0
 120C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\lib\TargetDescriptor.schema.js132967493202283083 0
 113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\tls1-1.js132967493202859191 0
 91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\domhandler\lib132967493139306180 1
 103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\graph\src\types.js132967493164646441 0
-80C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\script.js132969201237513800 0
+80C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\script.js132986582688252989 0
 129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.glibc.node132967493175614179 0
 112C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\alt-ww.js132967493156505171 0
 126C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\package-manager\src\NodePackageManager.js132967493198183944 0
 100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\node-gyp-build\index.js132967522276818045 0
 101C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss\lib\at-rule.d.ts132967522244094301 0
 109C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\lib\public\Asset.js132967493194059409 0
-75C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss132969172503021287 1
-100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-raw132967493160535771 1
-87C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\layout.scss132969171209772780 0
-92C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\sass\types\util132967506253148173 1
+75C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss132986597709747327 1
 98C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\optimizer-css132967493189089343 1
 90C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lodash.sortby132967493127571855 1
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\NC.js132967493195455620 0
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\source-map\README.md132967493165999635 0
-85C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\main.scss132969172549974525 0
+85C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\main.scss132986621802508874 0
 100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\lib\public132967493202223239 1
 119C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\documenthead.js132967493178503091 0
 80C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\has132967464511032997 1
@@ -155,21 +162,23 @@
 95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\source-map\LICENSE132967493141931860 0
 106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\css\node\targets.d.ts132967493158385544 0
 95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\error-ex\README.md132967493133709472 0
-91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\navigation.scss132969202701394052 0
+91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\navigation.scss132986627268102433 0
 100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\terser\tools\props.html132967493140805191 0
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\MS.js132967493192739446 0
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\yaml\dist\Schema-88e323a7.js132967493162224677 0
+108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\codeframe\test\fixtures132967493138962736 1
+109C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\immutable\dist\immutable.js.flow132967506249110625 0
+104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\setprototypeof\package.json132967464509447692 0
+95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\webidl-conversions132967493127561881 1
+84C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel132967522289136015 1
+96C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\safe-buffer\LICENSE132967464509447692 0
+106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\utf16.js132967464513862880 0
+91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\scss\responsive.scss132986597050632879 0
 95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\is-number\index.js132967506248201418 0
 86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\public\images\logo.png132969187073829513 0
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\packager-html\package.json132967493183986681 0
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\source-map\src\types.js132967493164248953 0
 114C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\terser\lib\compress\native-objects.js132967493164935071 0
-154C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines132967493203583999 1
-113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\svgo\plugins\removeElementsByAttr.js132967493165959736 0
-117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\syntax\node\MediaFeature.js132967493169516241 0
-122C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\test\fixtures\library-scopehoist132967493203486330 1
-108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\immutable\dist\immutable.min.js132967506251516608 0
-91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer132967493141423977 1
 97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\json5\lib\index.d.ts132967493164646441 0
 81C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\.bin132967522289145988 1
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\diagnostic\package.json132967493196966735 0
@@ -186,12 +195,6 @@
 134C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\node_modules\entities\lib\maps\decode.json132967493192291336 0
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\lib\_extends.js132967493165444938 0
 86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@mischnic132967493102880503 1
-108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\codeframe\test\fixtures132967493138962736 1
-109C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\immutable\dist\immutable.js.flow132967506249110625 0
-104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\setprototypeof\package.json132967464509447692 0
-95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\webidl-conversions132967493127561881 1
-84C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel132967522289136015 1
-96C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\safe-buffer\LICENSE132967464509447692 0
 137C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\htmlnano\docs\versioned_sidebars\version-2.0.0-sidebars.json132967493165899904 0
 90C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\types132967493157978433 1
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\yaml\dist\util.js132967493165740324 0
@@ -313,7 +316,6 @@
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\packager-svg\LICENSE132967493176293507 0
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss\lib\css-syntax-error.js132967522242029519 0
 93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\cookie-signature132967464510899787 1
-88C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\detect-libc132967493142071918 1
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\svgo\plugins\removeTitle.js132967493167372407 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\boolbase\index.js132967493130692662 0
 115C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\lib\esm\foreignNames.js132967493131034198 0
@@ -328,6 +330,13 @@
 101C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\detect-libc\package.json132967493137464095 0
 99C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\domhandler\lib\node.js132967493132922448 0
 117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\terser\node_modules\source-map\README.md132967493195035906 0
+88C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\detect-libc132967493142071918 1
+154C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines132967493203583999 1
+113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\svgo\plugins\removeElementsByAttr.js132967493165959736 0
+117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\syntax\node\MediaFeature.js132967493169516241 0
+122C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\core\test\fixtures\library-scopehoist132967493203486330 1
+108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\immutable\dist\immutable.min.js132967506251516608 0
+91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer132967493141423977 1
 99C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\express\lib\express.js132967464511470882 0
 89C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\finalhandler132967464511510770 1
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\source-map-js\lib\util.js132967506259398213 0
@@ -649,6 +658,7 @@
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\LR.js132967493188973880 0
 121C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\test\input\sourcemap\inline.js132967493195797255 0
 91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\path-to-regexp132967464510899787 1
+127C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\resources.html132986585342887741 0
 124C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\custom-elementsv1.js132967493177380209 0
 85C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\tr46\lib132967493130412512 1
 95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\test132967464511199013 1
@@ -670,14 +680,6 @@
 113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\lexer\generic-urange.js132967493165187861 0
 107C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\compressor-raw\LICENSE132967493190366402 0
 92C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\is-glob\LICENSE132967506248877248 0
-118C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\src\generateBuildMetrics.js132967493189566884 0
-97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\http-errors\index.js132967464510657154 0
-129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\lib\_class_private_field_destructure.js132967493160535771 0
-91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\source-map\lib132967493155206268 1
-108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\BB.js132967493166668903 0
-84C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss132967522244054409 1
-93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\tslib\tslib.d.ts132967493141941837 0
-105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\whatwg-url\lib\urlencoded.js132967493136315668 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@types\parse-json132967493141572163 1
 97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\postcss-value-parser132967493142554017 1
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\posthtml-render\readme.md132967493138538733 0
@@ -959,6 +961,10 @@
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\weak-lru-cache\rollup.config.js132967493135567242 0
 126C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\css-read-only-write.js132967493175405358 0
 122C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\arrow-functions.js132967493161959502 0
+104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\svgo\plugins\mergeStyles.js132967493162123362 0
+133C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js132967493149830862 0
+108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\reporter-dev-server\src132967493195495517 1
+97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\yaml\browser\util.js132967493165454922 0
 124C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lmdb\prebuilds\linux-arm64\node.abi72.musl.node132967493183346328 0
 91C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\nanoid\LICENSE132967522241451053 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\nth-check\LICENSE132967493139479717 0
@@ -1745,6 +1751,8 @@
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\function-bind\test\index.js132967464512380785 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\sass\types\logger132967506253198274 1
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\src\glob.js132967493189777007 0
+100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-raw132967493160535771 1
+92C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\sass\types\util132967506253148173 1
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\mdn-data\css\selectors.schema.json132967493155905553 0
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\TW.js132967493203119032 0
 93C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\sass\types\value132967506253218239 1
@@ -2208,8 +2216,8 @@
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\AO.js132967493159157152 0
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\htmlnano\docs\docusaurus.config.js132967493142803508 0
 122C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\bundler-default\src\DefaultBundler.js132967493184313704 0
-103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\nan\nan_callbacks_12_inl.h132967493135557266 0
 129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\runtime-js\lib\helpers\browser\css-loader.js132967493178052723 0
+103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\nan\nan_callbacks_12_inl.h132967493135557266 0
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\function-bind\.editorconfig132967464511830685 0
 107C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\nan\nan_callbacks_pre_12_inl.h132967493136409624 0
 101C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\README.md132967493141714997 0
@@ -2418,7 +2426,6 @@
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\lib\streams.js132967464514075807 0
 129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\runtime-js\src\helpers\worker\wasm-loader.js132967493178744994 0
 97C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lmdb\src\lmdb-js.cpp132967493172296504 0
-95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\lmdb\src\lmdb-js.h132967493172961438 0
 120C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@babel\highlight\node_modules\chalk\license132967493193708183 0
 108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\KZ.js132967493188248828 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\utils\src132967493198511621 1
@@ -2598,7 +2605,6 @@
 116C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\json-parse-even-better-errors\README.md132967493134890004 0
 107C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-js\LICENSE132967493166952011 0
 99C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\js-tokens\CHANGELOG.md132967493130994302 0
-95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\js-tokens\index.js132967493132360226 0
 94C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\js-tokens\LICENSE132967493133679565 0
 99C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\js-tokens\package.json132967493130100673 0
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\optimizer-image\lib132967493184884797 1
@@ -2688,7 +2694,6 @@
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\sbcs-codec.js132967464511810180 0
 120C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\sbcs-data-generated.js132967464512340704 0
 110C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\sbcs-data.js132967464512471367 0
-106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\utf16.js132967464513862880 0
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\utf7.js132967464513892797 0
 113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-posthtml\LICENSE132967493166862251 0
 120C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\iconv-lite\encodings\tables\big5-added.json132967464512869963 0
@@ -2826,8 +2831,6 @@
 104C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\.eslintignore132967464509577098 0
 106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\source-map\index.d.ts132967493212851265 0
 100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\.eslintrc132967464510174604 0
-98C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\.github132967464512643486 1
-113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-svg\package.json132967493164636449 0
 103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\CHANGELOG.md132967464512232305 0
 110C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\get-intrinsic\.github\FUNDING.yml132967464512717569 0
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\function-bind\.travis.yml132967464511520740 0
@@ -3001,8 +3004,6 @@
 117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\lib\foreignNames.d.ts.map132967493139366017 0
 111C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\lib\foreignNames.js132967493132902500 0
 118C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\canvas-text.js132967493170955975 0
-102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\color.js132967493144216133 0
-108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\CM.js132967493172416188 0
 106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\dom-serializer\lib\index.d.ts132967493146364080 0
 116C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\reporter-cli\lib\CLIReporter.js132967493195837143 0
 129C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\form-submit-attributes.js132967493181912586 0
@@ -3044,6 +3045,8 @@
 100C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\atrule132967493161574600 1
 103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\graph\lib\index.js132967493164243838 0
 103C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\Atrule.js132967493140637123 0
+102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\color.js132967493144216133 0
+108C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\regions\CM.js132967493172416188 0
 106C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\Dimension.js132967493158485276 0
 115C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\caniuse-lite\data\features\progress.js132967493200208729 0
 102C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\csso\lib\replace\Value.js132967493164528417 0
@@ -3128,7 +3131,7 @@
 109C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@parcel\transformer-posthtml\src132967493167543393 1
 101C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\syntax\node132967493173051204 1
 125C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\@swc\helpers\src\_check_private_redeclaration.js132967493172336395 0
-134C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.f3bd186e.js.map132969218071585298 0
+134C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.f3bd186e.js.map132986622403179614 0
 117C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\autoprefixer\lib\hacks\transform-decl.js132967522244363577 0
 119C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\syntax\scope\atrulePrelude.js132967493132568545 0
 113C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\css-tree\lib\syntax\scope\default.js132967493162623975 0
@@ -4958,13 +4961,13 @@
 90C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\.bin\svgo.cmd132967493364052175 0
 92C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\node_modules\.bin\terser.ps1132967493364072123 0
 83C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1132967503131716591 1
-86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\logo.b5bfa736.png132969218070422406 0
+86C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\logo.b5bfa736.png132986622402360451 0
 92C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017132967503131726569 1
 95C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3132967503131726569 1
 105C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22132967503131736530 1
-112C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public132969228083199890 1
+112C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public132986630989224529 1
 131C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.83d9161e.css132967503131931102 0
-131C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.c74267d1.css132969228083169971 0
-135C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.c74267d1.css.map132969228083169971 0
-130C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.f3bd186e.js132969218071585298 0
-123C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.html132969218071920521 0
+131C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.c74267d1.css132986630989184643 0
+135C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.c74267d1.css.map132986630989204712 0
+130C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.f3bd186e.js132986622403179614 0
+123C:\Users\xjkim\Desktop\Kim\! Year 2 Sem 1\DECO2017\A3\studbud22\dist\! Year 2 Sem 1\DECO2017\A3\studbud22\public\index.html132986624338408327 0

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="scss/main.scss">
+</head>
+
+<body>
+
+  <nav class = "nav-top">
+    <ul class = "nav-top-list">
+      <li><h2> STUDBUD </h2></li>
+      <li class="nav-item"><a href="index.html" ><h4>Task</h4></a></li>
+      <li class="nav-item"><a href="resources.html" class= "active"><h4>Resources</h4></a></li>
+      <!--<li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
+    </ul>
+  </nav>
+
+  <!--   button for adding task -->
+  <nav>
+    <ul>
+      <li class = "taskColumn-btns">
+        <button id="addColumn" onclick="togglePopupColumn()">+ Add Column</button>
+        <button id="addTask" onclick="togglePopupTask()">+ Add Task</button>
+      </li>
+    </ul>
+  </nav>
+
+  
+    <script src="script.js"></script>
+</body>
+
+</html>

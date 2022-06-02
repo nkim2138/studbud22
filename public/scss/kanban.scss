@@ -1,0 +1,295 @@
+
+  
+/* --------------------------KANBAN BOARD COLUMNS---------------------------- */
+
+/* reference to https://www.youtube.com/watch?v=m3StLl-H4CY&t=50s */
+#kanban-board {
+  display: flex; 
+  max-height: 90vh;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
+
+#kanban-columns {
+  width: 1200px;
+  display: flex;
+  height: 70vh;
+}
+
+
+/* evenly spreading the columns */
+.columns {
+  width: 25%;
+
+}
+
+.columns h5{
+  margin: 10px;
+  margin-left: 0;
+  position: relative;
+  
+}
+
+/* creating a box under the column names */
+.columnInfo {
+  background-color: #E7EBF0;
+  border-color: #E1E1E7;
+  height: 65vh;
+  position: relative;
+  border-radius: 12px;
+/*   have space between task and background */
+  padding-top: 1px;
+  overflow: auto;
+  
+}
+
+.columns #low-priority {
+  cursor: pointer; 
+  font-family: "Gotham";
+  font-weight: bold;
+  color: #79BC5A;
+  background-color:#E7EBF0;
+  padding: 7px; /*size of the input form is bigger*/
+  border: 2px solid #79BC5A;
+  border-radius: 20px;
+}
+
+
+
+.taskAssigned {
+  background-color: #fafafa;
+  border-radius: 11px;
+  width: 70%;
+  height: 25%;
+  margin: auto;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+/*   create a border on the side */
+  border-left: 10px solid #FFE37D;
+}
+
+.unit-priority{
+  display: flex;
+}
+
+
+
+.taskBox {
+  display: block;
+}
+
+
+
+
+/* -----Task form----- */
+
+
+
+#taskForm {
+    font-family: "Tenorite";
+    color: #4d4d4d;
+    font-weight: bold;
+    
+    
+  }
+  
+  
+  .taskcolumn {
+    display: flex;
+    flex-direction: column;
+  /*   justify-content: space-between; */
+    float: left;
+    width: 45%;
+    margin: 15px;
+  
+  }
+  
+  .taskcolumn-2 {
+    display:flex;
+    flex-direction: column;
+    float: left;
+    width: 47%;
+    margin: 5px;
+  }
+  
+  
+  /*standardised input*/
+  input, select{
+    padding: 10px 15px; /*size of the input form is bigger*/
+    margin-top: 7px;
+    font-family: "tenorite";
+    border: 1px solid #E1E1E7;
+    background-color: #F0F3F6;
+    border-radius: 5px;
+    box-sizing: content-box; /* width of select and text type is the same*/
+  }
+  
+  input[type=date] {
+    text-transform: uppercase; /*mm/dd/yyyy is capitalised*/
+  }
+  
+  #taskDescriptionInput {
+    vertical-align: top;
+    padding: 50px 15px;
+  }
+  
+  /* remove bullet points from list */
+  ul, li {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .taskClose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    font-size: 35px;
+    /*   decreasing font weight */
+    font-weight: 2;
+    /*   aligning with create new task text */
+    padding-top: 10px; 
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .row {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+  /* low priority button  */
+  #low-priority {
+    cursor: pointer; 
+    font-family: "Gotham";
+    font-weight: bold;
+    color: #79BC5A;
+    background-color: white;
+    padding: 7px; /*size of the input form is bigger*/
+    border: 2px solid #79BC5A;
+    border-radius: 20px;
+  }
+  
+  #low-priority:hover {
+    background-color: #79BC5A;
+    color: white;
+  }
+  
+  /* what happens when the button is clicked on; shows the user that they clicked the button  */
+  #low-priority:focus {
+    background-color: #79BC5A;
+    color: white;
+  }
+  
+  /* medium priority button  */
+  #medium-priority {
+    cursor: pointer;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: #FFA95A;
+    background-color: white;
+    padding: 7px; /*size of the input form is bigger*/
+    border: 2px solid #FFA95A;
+    border-radius: 20px;
+  }
+  
+  #medium-priority:hover {
+    background-color: #FFA95A;
+    color: white;
+  }
+  
+  /* what happens when the button is clicked on; shows the user that they clicked the button  */
+  #medium-priority:focus {
+    background-color: #FFA95A;
+    color: white;
+  }
+  
+  
+  /* high priority button  */
+  #high-priority {
+    cursor: pointer;
+    font-family: "Gotham";
+    font-weight: bold;
+    color: #ED635A;
+    background-color: white;
+    padding: 7px; /*size of the input form is bigger*/
+    border: 2px solid #ED635A;
+    border-radius: 20px;
+  }
+  
+  /* colour shown when hovered*/
+  #high-priority:hover {
+    background-color: #ED635A;
+    color: white;
+  /*   width: 12.5%; */
+  }
+  
+  
+  /* what happens when the button is clicked on; shows the user that they clicked the button  */
+  #high-priority:focus {
+    background-color: #ED635A;
+    color: white;
+  }
+  
+  
+  .buttons {
+    text-align: right;
+  }
+  
+  
+  
+  /* cancel ID was created as it will be the same for all cancel buttons in the web app */
+  #cancel {
+    width: 16%;
+    padding: 10px 15px; /*size of the input form is bigger*/
+    margin-top: 7px;
+    background-color: #F0F3F6;
+    border-radius: 5px;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 5px #E5E9ED; /*add a drop shadow*/
+  }
+  
+  #cancel:hover {
+    width: 16.5%; /*size slightly increases*/
+  }
+  
+  /* create ID was created as it will be the same for all 'create' buttons in the web app */
+  #create {
+    width: 16%;
+    font-family: "tenorite";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px; /*size of the input form is bigger*/
+    margin-top: 7px;
+    background-color: #A9E090;
+    border-radius: 5px;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 5px #E5E9ED; /*add a drop shadow*/
+  }
+  
+  #create:hover {
+    width: 16.5%; /*size slightly increases*/
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+

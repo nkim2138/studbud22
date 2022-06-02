@@ -12,15 +12,187 @@
 
   <!-- top nav bar then list for logo, tasks/resources tab and weekly goal -->
   <nav class="top-nav">
-    <ul>
+    <ul class="top-nav-list">
       <li><a href=""><img class="logo" src="/logo.b5bfa736.png" alt="logo" width="35%" height="auto/"></a></li>
-      <li><h4>Task</h4></li>
-      <li><h4>Resources</h4></li>
-      <li class="weekly-goal"><h4>Weekly Goal:</h4></li>
+      <li class="nav-item" id="selectTask"><h4>Task</h4></li>
+      <li class="nav-item" id="selectResources"><h4>Resources</h4></li>
+      <!-- <li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
     </ul>
   </nav>
 
+  <!--   CREATING TOP NAV BAR -->
 
+  <!-- <nav class = "nav-top">
+    <ul class = "nav-top-list">
+      <li><h2> STUDBUD </h2></li>
+      <li class="nav-item"><a href="index.html" class= "active"><h4>Task</h4></a></li>
+      <li class="nav-item"><a href="resources.html"><h4>Resources</h4></a></li> -->
+<!--       <li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
+    <!-- </ul>
+  </nav> -->
+
+
+
+  <div class="popup" id="taskPopup">
+    <div class="overlay" onclick="togglePopupTask()"></div>
+    <!--   CREATING A NEW TASK  -->
+    <form id="taskForm">
+
+      <!-- Creating a list to have create new task and close button beside each other -->
+
+
+      <nav>
+        <ul class="taskClose">
+          <li>
+            <h2 class="newtask">CREATE NEW TASK</h2>
+          </li>
+          <li>
+            <div class="close-btn" onclick="togglePopupTask()">&times;</div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="taskcolumn">
+
+        <!--label is a piece of text that users will see-->
+        <!--Task Name-->
+        <label for="taskName">TASK NAME </label>
+        <input type="text" id="taskNameInput" name="taskName">
+
+        <br>
+        <!--Description-->
+        <label for="taskDescription">DESCRIPTION</label>
+        <input type="text" id="taskDescriptionInput" name="taskDescription">
+
+        <br>
+        <!-- Which unit of study this belongs to-->
+        <label for="unitOfStudy">UNIT OF STUDY</label>
+        <select name="unitOfStudy" id="unitOfStudyInput">
+          <option value="">Select one</option>
+        </select>
+
+      </div>
+
+      <div class="taskcolumn">
+
+        <!--Priority-->
+        <label for="priority" id="priorityInput">PRIORITY</label>
+        <ul class="priority-btn">
+          <li><button id="low-priority" type="button">Low</button></li>
+          <li><button id="medium-priority" type="button">Medium</button></li>
+          <li><button id="high-priority" type="button">High</button></li>
+        </ul>
+
+        <br>
+
+
+        <div class="row">
+          <!-- Creating column for 'due date' and 'column' -->
+          <div class="taskcolumn-2">
+
+            <!--Due Date Input-->
+            <label for="dueDate">DUE DATE</label>
+            <input type="date" id="dueDateInput" name="dueDate">
+
+            <br>
+            <!--Which column they want it placed in-->
+            <label for="columnSelect">COLUMN</label>
+            <select name="columnSelect" id="columnSelectInput">
+              <option value="">Select one</option>
+            </select>
+          </div>
+
+          <!-- Creating column for 'time due' and 'time to complete' -->
+          <div class="taskcolumn-2">
+            <!--Time Input-->
+            <label for="completionTime">TIME DUE</label>
+            <input type="time" id="completionTimeInput" name="completionTime">
+
+            <br>
+            <!--Estimated Completion Time Input-->
+            <label for="estimatedTime">TIME TO COMPLETE </label>
+            <input type="number" id="estimatedTimeInput" name="estimatedTime">
+          </div>
+        </div>
+        <br>
+
+        <ul class="buttons">
+          <li><button id="cancel" type="button" onclick="togglePopupTask()">Cancel</button></li>
+<!--           <li><button id="create" type="button" onclick="toggleCreateTask()">Create</button></li> -->
+          <li> <input type="submit" onclick="togglePopupTask()" value="Create" id="create"></li>
+        </ul>
+      </div>
+    </form>
+  </div>
+
+<!-------------------------------KANBAN BOARD ---------------------------->
+
+<!---------------------  creating nav bar for the bottom part ------------------------------>
+
+<!--   reference to https://www.youtube.com/watch?v=m3StLl-H4CY&t=50s -->
+<div id="kanban-board">
+
+<!--    creating columns using ul and lists -->
+  <div id="kanban-columns">
+    <li class="columns">
+      <h5>Tasks</h5>
+      <div class="columnInfo" id="tasksColumn">
+ 
+      </div>
+
+      
+    </li>
+    <li class="columns">
+      <h5>To Do</h5>
+      <div class="columnInfo">
+        <!--         allows the task to be draggable across the columns       -->
+        <!-- <div class = "taskAssigned" draggable="true" onclick = "taskEditable()"> -->
+<!--           <nav class = "unit-priority">
+            <h6>INFO1110</h6>
+            <button id="low-priority" type="button">Low</button>
+          </nav>
+          <h5>Assignment 2</h5> -->
+        <!-- </div> -->
+      </div>
+    </li>
+
+    
+    <li class="columns">
+      <h5>In Progress</h5>
+      <div class="columnInfo">
+
+      </div>
+    </li>
+
+    
+    <li class="columns">
+      <h5>Completed</h5>
+      <div class="columnInfo">
+
+      </div>
+    </li>
+  
+    
+</div>
+</div>
+  
+<!--   button for adding task -->
+  <nav class="bottom-nav">
+    <ul class="bottom-nav-list">
+      <li class="taskColumn-btns">
+        <button id="addColumn" onclick="togglePopupColumn()">+ Add Column</button>
+        <button id="addTask" onclick="togglePopupTask()">+ Add Task</button>
+      </li>
+    </ul>
+  </nav>
+  
+
+
+
+  <!--location that we add any extra HTML to populate content we created in array-->
+  <!--we want data source be separate from the view of what the user sees-->
+  <ul id="tasklist">
+  </ul>
 
 </body>
 </html>

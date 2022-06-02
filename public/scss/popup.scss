@@ -1,0 +1,50 @@
+
+/* --------------------------CREATE A TASK POP-UP OVERLAY---------------------------- */
+
+/* Reference: https://www.youtube.com/watch?v=iE_6pQ3RlZU  */
+.popup .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /*   the last 2 digits is the transparency/opacity */
+    background-color: #0D2C5460;
+    z-index: 1;
+  /*   wont display until clicked */
+    display: none;
+  }
+  
+  
+  /* have task form popup- not active yet*/
+  .popup #taskForm {
+    position: absolute;
+    /*   have it pop in the middle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #FFFFFF;
+    width: 750px;
+    height: 450px;
+    border-radius: 12px;
+    z-index: 2;
+    padding: 20px;
+  /*   box-sizing: border-box; */
+  }
+  
+  /* When active */
+  
+  .popup.active .overlay {
+    display: block;
+  }
+  
+  .popup.active #taskForm {
+    /*   animation */
+    transition: all 100ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  
+  
+  
+  

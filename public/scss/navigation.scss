@@ -1,13 +1,72 @@
-nav {
-    display: flex;
-}
+/* ------------------------- For top nav bar in tasks and resource pages ------------------------------*/
 
-// setting a border line below
 .top-nav {
-    border-bottom: 1px solid #E5EAF1;
+    display: flex;
+    border-bottom: 1px solid #E5EAF1; // setting a border line below
+    margin-left: 10px;
 }
 
-// have the nav bar horizontal
-li {
-    display: inline-block;
+.top-nav-list {
+    display: flex;
+    padding: 0px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+#selectTask {
+    border-bottom: 3px solid #FD8E8E;
+    border-radius: 3px;
+}
+
+#selectResources {
+    border-bottom: 3px solid #FD8E8E00;
+    border-radius: 3px;
+}
+
+/* ------------------------- For bottom nav bar in tasks and resource pages ------------------------------*/
+
+// placing at the bottom
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.taskColumn-btns {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    
   }
+  
+  #addColumn {
+    width: 10%;
+    padding: 10px 10px; /*size of the input form is bigger*/
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: #F0F3F6;
+    border-radius: 5px;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 5px #E5E9ED; /*add a drop shadow*/
+  }
+
+  #addColumn:hover {
+    background-color: #F0F3F6;
+  }
+  
+  #addTask {
+    width: 10%;
+    padding: 10px 10px; /*size of the input form is bigger*/
+    margin-top: 7px;
+    background-color: #FD8E8E;
+    border-radius: 5px;
+    border: none;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 5px #E5E9ED; /*add a drop shadow*/
+  }
+  
