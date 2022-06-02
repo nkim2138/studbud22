@@ -248,13 +248,14 @@ ul, li {
 }
 
 .taskColumn-btns {
+  width: 100%;
   justify-content: right;
   display: flex;
   position: relative;
 }
 
 #addColumn {
-  width: 10%;
+  min-width: 10%;
   box-sizing: content-box;
   background-color: #f0f3f6;
   border: none;
@@ -363,7 +364,7 @@ ul, li {
 
 .popup .overlay {
   width: 100vw;
-  height: 100vh;
+  min-height: 100%;
   z-index: 1;
   background-color: #0d2c5460;
   display: none;

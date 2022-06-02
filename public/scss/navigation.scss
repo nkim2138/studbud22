@@ -40,11 +40,12 @@
     position: relative;
     display: flex;
     justify-content: right;
+    width: 100%;
     
   }
   
   #addColumn {
-    width: 10%;
+    min-width: 10%;
     padding: 10px 10px; /*size of the input form is bigger*/
     margin-top: 7px;
     margin-right: 10px;

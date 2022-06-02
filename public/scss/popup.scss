@@ -7,13 +7,15 @@
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 100vh;
+    min-height:100%;
     /*   the last 2 digits is the transparency/opacity */
     background-color: #0D2C5460;
     z-index: 1;
   /*   wont display until clicked */
     display: none;
   }
+
+
   
   
   /* have task form popup- not active yet*/

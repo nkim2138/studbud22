@@ -1,3 +1,7 @@
+//importing diff js files
+// import './components/kanban-tasks';
+
+
 // ------------------------drag and drop ----------------------------------------
 //getting the class from .html
 const toDoTasks = document.querySelectorAll(".taskAssigned");
@@ -26,7 +30,7 @@ function dragEnd() {
   console.log("dragEnd");
 }
 
-//drop targets are the columns with the colour
+//drop targets are the columns with the grey bg colour
 taskColumns.forEach((columnInfo) => {
   columnInfo.addEventListener("dragover", dragOver);
   columnInfo.addEventListener("dragenter", dragEnter);
@@ -113,11 +117,10 @@ taskForm.addEventListener("submit", function(event) { //defining and calling at 
   let unitOfStudy = unitOfStudyInput.options[unitOfStudyInput.selectedIndex].value;
   let priority = priorityInput.value;
   let dueDate = dueDateInput.value;
-  let columnSelect = columnSelectInput.options[unitOfStudyInput.selectedIndex].value;
+  let columnSelect = columnSelectInput.options[columnSelectInput.selectedIndex].value;
   let completionTime = completionTimeInput.value;
   let estimatedTime = estimatedTimeInput.value;
   console.log(taskListArray);
-
   
   //input bunch of parameters
   addTask(taskName, taskDescription, unitOfStudy, priority, dueDate, columnSelect, completionTime, estimatedTime )
@@ -125,7 +128,6 @@ taskForm.addEventListener("submit", function(event) { //defining and calling at 
 
 
 // create empty array to store tasks
-//globally scoped array
 var taskListArray = [];
 
 //Define a function called addTask for dynamically creating task objects
@@ -161,13 +163,49 @@ function renderTask(task){
   
   //create HTML structure (elements)
   //create var called item
-  let item = document.createElement("li");
-  item.className = "taskBox";
-  
-  //name from the task object
-  item.innerHTML = "<p>" + task.name + "<p>";
-  item.innerHTML = "<p>" + task.description + "</p>";
+  let item = document.createElement("div");
+//   item.className = "taskBox";
 
+  
+  //output of the user's input in the task box
+  //use array maybe?  https://stackoverflow.com/questions/52603796/to-do-list-with-array-and-functions
+  item.innerHTML =`
+     <ul>
+        <li>
+            <nav>
+                 <p class="createdUnitOfStudy">${task.unitofstudy}<p>
+                 <p class="createdPriority">${task.priority}<p>
+            </nav>
+        </li>
+
+        <li>
+            <p class="createdTaskName">${task.name}<p>
+        </li>
+
+        <li>
+            <p class="createdTaskDescription">${task.description}<p>
+        </li>
+
+
+        <li>
+            <p class="createdDueDate">${task.dueDate}<p>
+        </li>
+
+        <li>
+            <p class="createdTaskColumn">${task.column}<p>
+        </li>
+
+        <li>
+            <p class="createdCompletionTime">${task.completionTime}<p>
+        </li>
+
+        <li>
+            <p class="createdEstimatedTime">${task.estimatedTime}<p>
+        </li>
+    </ul>
+    `;
+
+//   item.innerHTML = "<p>" + task.description + "</p>";
   //shows only 30 characters
   // task.description = task.description.substring(0, 30);
 
@@ -186,7 +224,7 @@ function renderTask(task){
 
   // console.log(item);
 
-  
+
   function clickCreatedTask() {
     let createdTask = document.createElement("div");
     createdTask.setAttribute("id", "createdTask")

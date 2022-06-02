@@ -14,8 +14,8 @@
   <nav class="top-nav">
     <ul class="top-nav-list">
       <li><a href=""><img class="logo" src="/logo.b5bfa736.png" alt="logo" width="35%" height="auto/"></a></li>
-      <li class="nav-item" id="selectTask"><h4>Task</h4></li>
-      <li class="nav-item" id="selectResources"><h4>Resources</h4></li>
+      <li class="nav-item" id="selectTask"><a href="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.html" class="active"><h4>Task</h4></a></li>
+      <li class="nav-item" id="selectResources"><a href="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/resources.html"><h4>Resources</h4></a></li>
       <!-- <li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
     </ul>
   </nav>
@@ -99,6 +99,7 @@
             <label for="columnSelect">COLUMN</label>
             <select name="columnSelect" id="columnSelectInput">
               <option value="">Select one</option>
+              <option value="Task">Tasks</option>
             </select>
           </div>
 
@@ -127,15 +128,13 @@
 
 <!-------------------------------KANBAN BOARD ---------------------------->
 
-<!---------------------  creating nav bar for the bottom part ------------------------------>
-
 <!--   reference to https://www.youtube.com/watch?v=m3StLl-H4CY&t=50s -->
 <div id="kanban-board">
 
 <!--    creating columns using ul and lists -->
   <div id="kanban-columns">
     <li class="columns">
-      <h5>Tasks</h5>
+      <h5 contenteditable="true">Tasks</h5>
       <div class="columnInfo" id="tasksColumn">
  
       </div>
@@ -143,7 +142,7 @@
       
     </li>
     <li class="columns">
-      <h5>To Do</h5>
+      <h5 contenteditable="true">To Do</h5>
       <div class="columnInfo">
         <!--         allows the task to be draggable across the columns       -->
         <!-- <div class = "taskAssigned" draggable="true" onclick = "taskEditable()"> -->
@@ -158,7 +157,7 @@
 
     
     <li class="columns">
-      <h5>In Progress</h5>
+      <h5 contenteditable="true">In Progress</h5>
       <div class="columnInfo">
 
       </div>
@@ -166,7 +165,7 @@
 
     
     <li class="columns">
-      <h5>Completed</h5>
+      <h5 contenteditable="true">Completed</h5>
       <div class="columnInfo">
 
       </div>
@@ -175,7 +174,17 @@
     
 </div>
 </div>
-  
+  <!---------------------  creating nav bar for the bottom part ------------------------------>
+<!-- MUSIC PLAYER -->
+<div class="popup" id="musicPopup">
+  <div class="transparent-overlay" onclick="togglePopupTask()">
+
+  </div>
+</div>
+
+<!-- STOPWATCH/POMODORO -->
+
+
 <!--   button for adding task -->
   <nav class="bottom-nav">
     <ul class="bottom-nav-list">
@@ -197,4 +206,4 @@
 </body>
 </html>
 
-<script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.f3bd186e.js"></script>
+<script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/resources.f3bd186e.js"></script>
