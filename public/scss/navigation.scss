@@ -1,5 +1,10 @@
 /* ------------------------- For top nav bar in tasks and resource pages ------------------------------*/
 
+// remove line from links
+a {
+    text-decoration: none;
+}
+
 .top-nav {
     display: flex;
     border-bottom: 1px solid #E5EAF1; // setting a border line below
@@ -22,6 +27,11 @@
     border-radius: 3px;
 }
 
+// #selectTask:active {
+//     border-bottom: 3px solid #FD8E8E;
+//     border-radius: 3px;
+// }
+
 #selectResources {
     border-bottom: 3px solid #FD8E8E00;
     border-radius: 3px;
@@ -32,6 +42,7 @@
 // placing at the bottom
 .bottom-nav {
     position: fixed;
+    margin-right: 15px;
     bottom: 0;
     width: 100%;
 
@@ -40,7 +51,6 @@
     position: relative;
     display: flex;
     justify-content: right;
-    width: 100%;
     
   }
   

@@ -14,13 +14,15 @@
 #kanban-columns {
   width: 1200px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 70vh;
 }
 
 
 /* evenly spreading the columns */
 .columns {
-  width: 25%;
+  width: 20%;
 
 }
 
@@ -38,8 +40,7 @@
   height: 65vh;
   position: relative;
   border-radius: 12px;
-/*   have space between task and background */
-  padding-top: 1px;
+  padding-top: 1px; /*   have space between task and background */
   overflow: auto;
   
 }
@@ -66,8 +67,7 @@
   margin-top: 15px;
   padding-left: 20px;
   padding-right: 20px;
-/*   create a border on the side */
-  border-left: 10px solid #FFE37D;
+  border-left: 10px solid #FFE37D; /*   create a border on the side */
 }
 
 .unit-priority{
@@ -83,7 +83,7 @@
 
 
 
-/* -----Task form----- */
+/* ---------------------Task form------------------- */
 
 
 
@@ -91,15 +91,12 @@
     font-family: "Tenorite";
     color: #4d4d4d;
     font-weight: bold;
-    
-    
   }
   
   
   .taskcolumn {
     display: flex;
     flex-direction: column;
-  /*   justify-content: space-between; */
     float: left;
     width: 45%;
     margin: 15px;

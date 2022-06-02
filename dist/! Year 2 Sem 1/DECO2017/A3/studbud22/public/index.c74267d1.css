@@ -9,11 +9,13 @@
 #kanban-columns {
   width: 1200px;
   height: 70vh;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
 .columns {
-  width: 25%;
+  width: 20%;
 }
 
 .columns h5 {
@@ -214,6 +216,10 @@ ul, li {
   width: 16.5%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .top-nav {
   border-bottom: 1px solid #e5eaf1;
   margin-left: 10px;
@@ -243,12 +249,12 @@ ul, li {
 
 .bottom-nav {
   width: 100%;
+  margin-right: 15px;
   position: fixed;
   bottom: 0;
 }
 
 .taskColumn-btns {
-  width: 100%;
   justify-content: right;
   display: flex;
   position: relative;

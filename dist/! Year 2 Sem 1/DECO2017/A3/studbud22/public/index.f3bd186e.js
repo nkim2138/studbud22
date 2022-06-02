@@ -1,3 +1,5 @@
+//importing diff js files
+// import './components/kanban-tasks';
 // ------------------------drag and drop ----------------------------------------
 //getting the class from .html
 const toDoTasks = document.querySelectorAll(".taskAssigned");
