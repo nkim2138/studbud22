@@ -39,6 +39,7 @@ a {
 
 /* ------------------------- For bottom nav bar in tasks and resource pages ------------------------------*/
 
+
 // placing at the bottom
 .bottom-nav {
     position: fixed;
@@ -67,7 +68,8 @@ a {
   }
 
   #addColumn:hover {
-    background-color: #F0F3F6;
+    cursor: pointer;
+    background-color: #E0E7F0;
   }
   
   #addTask {
@@ -81,3 +83,7 @@ a {
     box-shadow: 1px 2px 5px #E5E9ED; /*add a drop shadow*/
   }
   
+  #addTask:hover {
+      background-color: #ef7e7e;
+      cursor: pointer;
+  }

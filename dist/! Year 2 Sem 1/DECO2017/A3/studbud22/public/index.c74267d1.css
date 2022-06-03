@@ -217,6 +217,15 @@ ul, li {
   width: 16.5%;
 }
 
+.columnInfo #emptyTaskList {
+  color: #4d4d4d;
+  justify-content: center;
+  margin: 10px;
+  font-style: italic;
+  font-weight: normal;
+  display: flex;
+}
+
 .newTaskCreated {
   padding: 0;
 }
@@ -318,7 +327,8 @@ a {
 }
 
 #addColumn:hover {
-  background-color: #f0f3f6;
+  cursor: pointer;
+  background-color: #e0e7f0;
 }
 
 #addTask {
@@ -330,6 +340,11 @@ a {
   margin-top: 7px;
   padding: 10px;
   box-shadow: 1px 2px 5px #e5e9ed;
+}
+
+#addTask:hover {
+  cursor: pointer;
+  background-color: #ef7e7e;
 }
 
 @media (max-width: 820px) {
@@ -428,7 +443,7 @@ a {
   width: 750px;
   height: 450px;
   z-index: 2;
-  background: #fff;
+  background: #fafafa;
   border-radius: 12px;
   padding: 20px;
   position: absolute;
@@ -444,6 +459,99 @@ a {
 .popup.active #taskForm {
   transition: all .1s ease-in-out;
   transform: translate(-50%, -50%)scale(1);
+}
+
+.popup #stopwatchAndPomodoro {
+  width: 200px;
+  height: 250px;
+  z-index: 2;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 15px;
+  position: fixed;
+  bottom: 22px;
+  left: 25%;
+  box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+.stopwatchContent p {
+  display: flex;
+}
+
+.stopAndClose {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+#stopwatchAndPomodoro {
+  flex-direction: column-reverse;
+  justify-content: center;
+  display: flex;
+}
+
+.stopwatchContent h1 {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.stopwatch {
+  margin-top: 15px;
+  display: flex;
+}
+
+.stopwatch-btns {
+  min-width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+#closeStop {
+  padding-top: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.timerbutton {
+  padding: 5px;
+}
+
+#stopwatchStart {
+  min-width: 45%;
+  background-color: #fd8e8e;
+  border: none;
+  border-radius: 5px;
+}
+
+#stopwatchStart:hover {
+  cursor: pointer;
+  background-color: #ef7e7e;
+}
+
+#stopwatchReset {
+  min-width: 45%;
+  background-color: #ebeef4;
+  border: none;
+  border-radius: 5px;
+}
+
+#stopwatchReset:hover {
+  cursor: pointer;
+  background-color: #dadfe9;
+}
+
+.popup #musicPlayer {
+  width: 200px;
+  height: 250px;
+  z-index: 2;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 15px;
+  position: fixed;
+  bottom: 22px;
+  left: 5%;
+  box-shadow: 1px 4px 5px #0d2c5415;
 }
 
 html, body {
@@ -464,7 +572,7 @@ p {
   font-family: biryani;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
   color: #2d2d2d;
   font-family: Gotham;
 }

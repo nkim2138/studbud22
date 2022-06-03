@@ -1,0 +1,85 @@
+
+.popup #stopwatchAndPomodoro {
+    position: fixed;
+    background: #FAFAFA;
+    bottom: 22px;
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    z-index: 2;
+    padding: 15px;
+    box-shadow: 1px 4px 5px #0D2C5415;
+    left: 25%;
+  }
+
+  .stopwatchContent p {
+      display: flex;
+  }
+
+  .stopAndClose {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  #stopwatchAndPomodoro {
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+  }
+
+.stopwatchContent h1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.stopwatch {
+    display: flex;
+    margin-top: 15px;
+}
+
+.stopwatch-btns {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#closeStop{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:0;
+    
+}
+
+.timerbutton {
+    padding: 5px;
+}
+
+// buttons for start and reset
+#stopwatchStart {
+    background-color: #FD8E8E;
+    min-width: 45%;
+    border-radius: 5px;
+    border: none;
+}
+
+// colour changes when hovered, cursor changes to pointer
+#stopwatchStart:hover {
+    cursor: pointer;
+    background-color: #EF7E7E;
+}
+
+#stopwatchReset {
+    background-color: #EBEEF4;
+    min-width: 45%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+// colour changes when hovered, cursor changes to pointer
+#stopwatchReset:hover {
+    cursor: pointer;
+    background-color: #dadfe9;
+}

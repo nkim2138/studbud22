@@ -2,6 +2,8 @@
 @import 'navigation';
 @import 'responsive';
 @import 'popup';
+@import 'timer';
+@import 'musicplayer';
 
 
 // general style, fonts..
@@ -29,7 +31,7 @@ html, body {
 p {
     font-family: "biryani";
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
     font-family: "Gotham";
     color: #2d2d2d;
 }

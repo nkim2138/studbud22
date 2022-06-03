@@ -20,19 +20,8 @@
     </ul>
   </nav>
 
-  <!--   CREATING TOP NAV BAR -->
 
-  <!-- <nav class = "nav-top">
-    <ul class = "nav-top-list">
-      <li><h2> STUDBUD </h2></li>
-      <li class="nav-item"><a href="index.html" class= "active"><h4>Task</h4></a></li>
-      <li class="nav-item"><a href="resources.html"><h4>Resources</h4></a></li> -->
-<!--       <li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
-    <!-- </ul>
-  </nav> -->
-
-
-
+<!-- popup create new task -->
   <div class="popup" id="taskPopup">
     <div class="overlay" onclick="togglePopupTask()"></div>
     <!--   CREATING A NEW TASK  -->
@@ -68,6 +57,7 @@
         <!-- Which unit of study this belongs to-->
         <label for="unitOfStudy">UNIT OF STUDY</label>
         <!-- automatically becomes uppercase -->
+        <!-- reference to https://www.the-art-of-web.com/html/input-field-uppercase/#:~:text=On%20every%20keystroke%20a%20JavaScript,convert%20the%20value%20to%20uppercase.&text=Aside%20from%20the%20distraction%20of,changing%20it%20to%20'ABBA'. -->
         <input type="text" name="unitOfStudy" id="unitOfStudyInput" onkeyup="this.value = this.value.toUpperCase();">
         <!-- <select name="unitOfStudy" id="unitOfStudyInput">
           <option value="">Select one</option>
@@ -101,7 +91,10 @@
             <label for="columnSelect">COLUMN</label>
             <select name="columnSelect" id="columnSelectInput">
               <option value="">Select one</option>
-              <option value="Task">Tasks</option>
+              <option value="TasksColumn">Tasks</option>
+              <option value="ToDoColumn">To Do</option>
+              <option value="InProgressColumn">In Progress</option>
+              <option value="CompletedColumn">Completed</option>
             </select>
           </div>
 
@@ -138,6 +131,7 @@
     <li class="columns">
       <h5 contenteditable="true">Tasks</h5>
       <div class="columnInfo" id="tasksColumn">
+        <p id="emptyTaskList">Start by adding a new task!</p>
  
       </div>
 
@@ -146,14 +140,7 @@
     <li class="columns">
       <h5 contenteditable="true">To Do</h5>
       <div class="columnInfo">
-        <!--         allows the task to be draggable across the columns       -->
-        <!-- <div class = "taskAssigned" draggable="true" onclick = "taskEditable()"> -->
-<!--           <nav class = "unit-priority">
-            <h6>INFO1110</h6>
-            <button id="low-priority" type="button">Low</button>
-          </nav>
-          <h5>Assignment 2</h5> -->
-        <!-- </div> -->
+ 
       </div>
     </li>
 
@@ -176,20 +163,47 @@
     
 </div>
 </div>
+
+
   <!---------------------  creating nav bar for the bottom part ------------------------------>
-<!-- MUSIC PLAYER -->
-<div class="popup" id="musicPopup">
-  <div class="transparent-overlay" onclick="togglePopupTask()">
-
-  </div>
-</div>
-
-<!-- STOPWATCH/POMODORO -->
-
-
-<!--   button for adding task -->
   <nav class="bottom-nav">
+
+<!-- add task and column -->
     <ul class="bottom-nav-list">
+      <li class="musicandTime">
+           <!-- MUSIC PLAYER -->
+         <div class="popup" id="musicPopup">
+          <div class="transparent-overlay" onclick="togglePopupTask()">
+            <div id="musicPlayer">
+              <div class="musicPlayerContent">
+              </div>
+            </div>
+          </div>
+       </div>
+      <!--------------------------------STOPWATCH---------------------------------->
+      <!-- reference from https://www.youtube.com/watch?v=yhhFXNHKpsk&t=8s -->
+      <div class="popup" id="stopwatchPomodoroPopup">
+         <div class="transparent-overlay">
+             <div id="stopwatchAndPomodoro">
+               <div class="stopwatchContent">
+                 <nav class="stopAndClose">
+                  <p>Stopwatch</p>
+                  <div class="close-btn" id="closeStop">&times;</div>
+                 </nav>
+                 <h1 id="screenStop">00:00.00</h1>
+                  <ul class="stopwatch">
+                    <li class="stopwatch-btns">
+                        <button id="stopwatchStart" class="timerbutton" onclick="startStopwatch()">Start</button>
+                        <button id="stopwatchReset" class="timerbutton" onclick="resetStopwatch()">Reset</button>
+                    </li>
+                  </ul>
+               </div>
+             </div>
+          </div>
+    </div></li>
+        
+        
+         
       <li class="taskColumn-btns">
         <button id="addColumn" onclick="togglePopupColumn()">+ Add Column</button>
         <button id="addTask" onclick="togglePopupTask()">+ Add Task</button>
@@ -205,7 +219,13 @@
   <ul id="tasklist">
   </ul>
 
+
+
+
 </body>
 </html>
 
 <script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.f3bd186e.js"></script>
+<script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.856035fe.js"></script>
+<script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.4e436ae7.js"></script>
+<script src="/!%20Year%202%20Sem%201/DECO2017/A3/studbud22/public/index.21112ce5.js"></script>
