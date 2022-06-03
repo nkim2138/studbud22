@@ -57,7 +57,6 @@ function togglePopupTask() {
 // creating task functionality
 //need variables to keep track of our input elements themselves
 //js variables referencing html elements
-//const - never changing
 //get variable from DOM using actual 'document' object
 const taskForm = document.getElementById("taskForm"); //get element by ID from HTML
 //querySelector() general way to select elements
@@ -85,7 +84,8 @@ taskForm.addEventListener("submit", function(event) {
     let taskDescription = taskDescriptionInput.value;
     //array of collections
     //selected index of current element
-    let unitOfStudy = unitOfStudyInput.options[unitOfStudyInput.selectedIndex].value;
+    let unitOfStudy = unitOfStudyInput.value;
+    // let unitOfStudy = unitOfStudyInput.options[unitOfStudyInput.selectedIndex].value;
     let priority = priorityInput.value;
     let dueDate = dueDateInput.value;
     let columnSelect = columnSelectInput.options[columnSelectInput.selectedIndex].value;
@@ -130,38 +130,35 @@ function renderTask(task) {
     //output of the user's input in the task box
     //use array maybe?  https://stackoverflow.com/questions/52603796/to-do-list-with-array-and-functions
     item.innerHTML = `
-     <ul>
-        <li>
-            <nav>
+     <ul class = "newTaskCreated">
+        <li class = "taskDetails" >
+            <nav class = "unit-priority">
                  <p class="createdUnitOfStudy">${task.unitofstudy}<p>
                  <p class="createdPriority">${task.priority}<p>
             </nav>
         </li>
 
-        <li>
+        <li class = "taskDetails">
             <p class="createdTaskName">${task.name}<p>
         </li>
 
-        <li>
+        <li class = "taskDetails">
             <p class="createdTaskDescription">${task.description}<p>
         </li>
 
 
-        <li>
-            <p class="createdDueDate">${task.dueDate}<p>
+        <li class = "taskDetails">
+            <nav class = "dateAndTime">
+                <div class = "due">
+                    <p class="createdDueDate">${task.dueDate} | <p>
+                    <p class="createdCompletionTime"> ${task.completionTime}<p>
+                </div>
+                <div class = "estimate">
+                    <p class="createdEstimatedTime">${task.estimatedTime}min <p>
+                </div>
+            </nav>
         </li>
 
-        <li>
-            <p class="createdTaskColumn">${task.column}<p>
-        </li>
-
-        <li>
-            <p class="createdCompletionTime">${task.completionTime}<p>
-        </li>
-
-        <li>
-            <p class="createdEstimatedTime">${task.estimatedTime}<p>
-        </li>
     </ul>
     `;
     //   item.innerHTML = "<p>" + task.description + "</p>";

@@ -5,6 +5,11 @@
 
 
 // general style, fonts..
+
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&display=swap');
+
+
+
 html, body {
     max-height: 100vh;
     max-width: 100%;
@@ -22,7 +27,7 @@ html, body {
 
 /*setting fonts*/
 p {
-    font-family: "Biryani";
+    font-family: "biryani";
 }
 h2, h3, h4 {
     font-family: "Gotham";

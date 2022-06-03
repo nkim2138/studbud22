@@ -67,9 +67,11 @@
         <br>
         <!-- Which unit of study this belongs to-->
         <label for="unitOfStudy">UNIT OF STUDY</label>
-        <select name="unitOfStudy" id="unitOfStudyInput">
+        <!-- automatically becomes uppercase -->
+        <input type="text" name="unitOfStudy" id="unitOfStudyInput" onkeyup="this.value = this.value.toUpperCase();">
+        <!-- <select name="unitOfStudy" id="unitOfStudyInput">
           <option value="">Select one</option>
-        </select>
+        </select> -->
 
       </div>
 

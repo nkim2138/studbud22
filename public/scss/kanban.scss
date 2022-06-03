@@ -62,7 +62,7 @@
   background-color: #fafafa;
   border-radius: 11px;
   width: 70%;
-  height: 25%;
+  min-height: 25%;
   margin: auto;
   margin-top: 15px;
   padding-left: 20px;
@@ -279,7 +279,49 @@
   
   
   
+  // when task is created - modifying from js
+  .newTaskCreated {
+    padding: 0;
+  }
+// .taskDetails {
+//   padding: 0;
+// }
+.newTaskCreated li nav {
+  line-height: 5px;
+}
+
+  .unit-priority{
+    display: flex;
+    justify-content: space-between;
+  }
+  .createdUnitOfStudy {
+    color: #8C8C8C;
+    font-size: 13px;
+  }
   
+  .createdTaskDescription {
+    padding-bottom: 5px;
+    font-weight: 1;
+    font-size: 13px;
+    border-bottom: 1px solid #A1A2B680;
+  }
+
+  .dateAndTime {
+    display: flex;
+    justify-content: space-between;
+  }
+  .due {
+    display: flex;
+  }
+  .due p{
+    padding-right: 2px;
+  }
+  
+  .dateAndTime p {
+    font-family: "Biryani";
+    font-size: 11px;
+    color: #7D7E9A;
+  }
 
 
 
