@@ -6,6 +6,8 @@ const taskColumns = document.querySelectorAll(".columnInfo");
 // at the beginning we don't know what item will be draggable
 let draggableTasks = null;
 
+localStorage.setItem("input", "task");
+
 // looping through other to do tasks
 toDoTasks.forEach((taskAssigned) => {
   taskAssigned.addEventListener("dragstart", dragStart);
@@ -146,7 +148,7 @@ function addTask(name, description, unitofstudy, priority, dueDate, column, comp
        completionTime,
        estimatedTime,
        taskStarted: false, //by default
-       taskCompleted: false //by default
+       taskCompleted: false, //by default
  };
   
   //Push task object to taskList Array
@@ -221,8 +223,6 @@ function renderTask(task){
   item.addEventListener("dragstart", dragStart);
   item.addEventListener("dragend", dragEnd);
 
-  // console.log(item);
-
 
   function clickCreatedTask() {
     let createdTask = document.createElement("div");
@@ -233,10 +233,14 @@ function renderTask(task){
   
   //add user interactions to the elements
   //extra task DOM elements - eg. deleting a task that was created by mistake
-  
-  let delButton = document.createElement("button");
+  // let delButton = document.createElement("div");
   //text node
-  let delButtonText = document.createTextNode("Delete Task");
+  // delButton.innerHTML = '&times;';
+  // delButton.setAttribute("class", "deleteTask");
+
+  let delButton = document.createElement("button");
+  // //text node
+  let delButtonText = document.createTextNode("Delete");
   delButton.appendChild(delButtonText);
 
   

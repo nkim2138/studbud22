@@ -1,3 +1,6 @@
+// STOPWATCH
+// declaring variables
+// reference from https://www.youtube.com/watch?v=TdJRtsYLuaU
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
@@ -6,6 +9,7 @@ let displayMinutes = 0;
 let displayHours = 0;
 let timestatus = "Stopped";
 let interval = '';
+// function that calculates the time in seconds, minutes and hours
 function StartWatch() {
     seconds++;
     if (seconds / 60 === 1) {
@@ -24,7 +28,7 @@ function StartWatch() {
     else displayHours = hours;
     document.getElementById('screenStop').innerHTML = displayHours + ":" + displayMinutes + "." + displaySeconds;
 }
-// when user clicks start, the button changes to stop and vice-versa.
+// when user clicks start button, the button changes to 'stop' and vice-versa.
 function startStopwatch() {
     if (timestatus == 'Stopped') {
         interval = window.setInterval(StartWatch, 1000);

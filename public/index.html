@@ -28,8 +28,6 @@
     <form id="taskForm">
 
       <!-- Creating a list to have create new task and close button beside each other -->
-
-
       <nav>
         <ul class="taskClose">
           <li>
@@ -70,9 +68,9 @@
         <!--Priority-->
         <label for="priority" id="priorityInput">PRIORITY</label>
         <ul class="priority-btn">
-          <li><button id="low-priority" type="button">Low</button></li>
-          <li><button id="medium-priority" type="button">Medium</button></li>
-          <li><button id="high-priority" type="button">High</button></li>
+          <li><button id="low-priority" type="button" value="Low" onclick="selectPriority()">Low</button></li>
+          <li><button id="medium-priority" type="button" value="Medium" onclick="selectPriority()">Medium</button></li>
+          <li><button id="high-priority" type="button" value="High" onclick="selectPriority()">High</button></li>
         </ul>
 
         <br>
@@ -180,24 +178,95 @@
             </div>
           </div>
        </div>
-      <!--------------------------------STOPWATCH---------------------------------->
+      <!--------------------------------STOPWATCH & POMODORO---------------------------------->
       <!-- reference from https://www.youtube.com/watch?v=yhhFXNHKpsk&t=8s -->
       <div class="popup" id="stopwatchPomodoroPopup">
          <div class = "transparent-overlay">
              <div id = "stopwatchAndPomodoro">
-               <div class = "stopwatchContent">
-                 <nav class ="stopAndClose">
-                  <p>Stopwatch</p>
-                  <div class="close-btn" id = "closeStop">&times;</div>
-                 </nav>
-                 <h1 id = "screenStop">00:00.00</h1>
-                  <ul class="stopwatch">
-                    <li class = "stopwatch-btns">
-                        <button id="stopwatchStart" class ="timerbutton" onclick = "startStopwatch()">Start</button>
-                        <button id="stopwatchReset" class ="timerbutton" onclick = "resetStopwatch()">Reset</button>
-                    </li>
-                  </ul>
+              <nav>
+                <ul class ="stopwatchPomoClose"> 
+                  <li class = "selectTimer">
+                    <p class = "stopActive" onclick="active1()">Stopwatch</p>
+                    <p class = "pomoActive" onclick="active2()">Pomodoro</p>
+                  </li>
+                  <li>
+                    <div class="close-btn" id = "closeStop">&times;</div>
+                  </li>
+                </ul>
+               </nav>
+
+               <!-- display stopwatch -->
+               <div class = "stopPomo">
+                <ul class = "switchStopPomo">
+                  <li class ="switchtimer">
+                    <div id = "stopwatchContent" class = "active">
+                      <h1 id = "screenStop">00:00.00</h1>
+                       <ul class="stopwatch">
+                         <li class = "stopwatch-btns">
+                             <button id="stopwatchStart" class ="timerbutton" onclick = "startStopwatch()">Start</button>
+                             <button id="stopwatchReset" class ="timerbutton" onclick = "resetStopwatch()">Reset</button>
+                         </li>
+                        </ul>
+                    </div>
+                  </li>
+
+                  <li class ="switchtimer">
+                    <!-- display pomodoro start button-->
+                  <div id = "pomodoroContent">
+                    <!-- <a href=""><img class="tulip" src= "images/tulip.png" alt= "logo" width= 15% height= auto/></a> -->
+
+                   <!-- time (secs and mins) displayed -->
+                   <form class ="session" action = "." id="setTime">
+                    <label for="focus">Focus</label>
+                    <input type="number" value="25" id="focusTime"/>
+
+                    <label for="break" class="break">Break</label>
+                    <input type="number" value="5" id="breakTime"/>
+
+                    <ul class="pomodoro">
+                      <li class = "pomodoro-btns">
+                          <button id="pomodoroSave" class ="timerbutton" type="submit">Save</button>
+                          <button id="pomodoroStart" class ="timerbutton" onclick="active3()">Start</button>
+                      </li>
+                    </ul>
+                   </form>
+        
+                   <p id="userSaves"></p>
+                 </div>
+                </li>
+     
+                  <li class ="switchtimer">
+                      <!-- display pomodoro timer running-->
+                    <div id = "pomodoroTimer" class ="pomodoroTimer">
+                      <svg class="static-ring" height="120" width="120">
+                        <circle class="static-ring-circle" stroke-width="10" fill="transparent" r="50" cx="60" cy="60"/>
+                      </svg>
+                      <svg class="progress-ring" height="120" width="120">
+                        <circle class="progress-ring-circle" stroke-width="10" fill="transparent" r="50" cx="60" cy="60"/>
+                      </svg>
+                     
+
+                      <a href=""><img class="tulip" src= "images/tulip.png" alt= "logo" width= 15% height= auto/></a>
+
+                     <!-- time (secs and mins) displayed -->
+                     <div class ="timePomo">
+                      <h1 class = "mins">00</h1>
+                      <h1>:</h1>
+                      <h1 class = "secs">00</h1>
+                     </div>
+                     
+                      <ul class="pomodoro">
+                        <li class = "pomodoro-btns">
+                            <button id="pomodoroPause" class ="timerbutton">Pause</button>
+                            <button id="pomodoroEnd" class ="timerbutton" onclick="active2()">End</button>
+                        </li>
+                      </ul>
+                   </div>
+                  </li>
+
+                </ul>
                </div>
+
              </div>
           </div>
     </li>
@@ -211,7 +280,6 @@
     </ul>
   </nav>
   
-
 
 
   <!--location that we add any extra HTML to populate content we created in array-->
@@ -228,4 +296,5 @@
 <script src="script.js"></script>
 <script src="components/kanban-tasks.js"></script>
 <script src="components/music-player.js"></script>
-<script src="components/stopwatch-pomodoro.js"></script>
+<script src="components/stopwatch.js"></script>
+<script src="components/pomodoro.js"></script>

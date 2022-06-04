@@ -10,45 +10,87 @@
     padding: 15px;
     box-shadow: 1px 4px 5px #0D2C5415;
     left: 25%;
+    overflow: hidden;
   }
 
-  .stopwatchContent p {
+  #stopwatchContent{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+  #stopwatchContent p {
       display: flex;
   }
 
-  .stopAndClose {
+  .stopwatchPomoClose {
       display: flex;
       justify-content: space-between;
       align-items: center;
   }
 
-  #stopwatchAndPomodoro {
-   display: flex;
-   flex-direction: column-reverse;
-   justify-content: center;
+  .stopwatchPomoClose p{
+    font-size: 14px;
+    padding: 7px;
+    padding-bottom: 2px;
+}
+
+
+.stopActive {
+    border-bottom: 3px solid #EF7E7E;
+    border-radius: 3px;
+}
+
+
+.pomoActive {
+    border-bottom: 3px solid #EF7E7E00;
+    border-radius: 3px;
+}
+
+
+  .selectTimer {
+      display: flex;
+      justify-content: space-around;
   }
 
-.stopwatchContent h1 {
+  .selectTimer:hover {
+    cursor: pointer;
+}
+
+  
+  .stopPomo {
+      position: relative;
+  }
+
+  .switchStopPomo {
+    width: 300%; //3 sections - stopwatch, 2x pomodoro timer
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+#stopwatchContent h1 {
+    display: flex;
+    justify-content: space-around;
     align-items: flex-end;
+    padding: 10px;
 }
 
 .stopwatch {
     display: flex;
     margin-top: 15px;
+    justify-content: center;
 }
 
 .stopwatch-btns {
     min-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #closeStop{
     font-size: 25px;
     font-weight: bold;
-    padding-top:0;
+    padding: 0;
     
 }
 
@@ -59,7 +101,7 @@
 // buttons for start and reset
 #stopwatchStart {
     background-color: #FD8E8E;
-    min-width: 45%;
+    min-width: 48%;
     border-radius: 5px;
     border: none;
 }
@@ -72,7 +114,7 @@
 
 #stopwatchReset {
     background-color: #EBEEF4;
-    min-width: 45%;
+    min-width: 48%;
     border-radius: 5px;
     border: none;
 
@@ -82,4 +124,138 @@
 #stopwatchReset:hover {
     cursor: pointer;
     background-color: #dadfe9;
+}
+
+
+// POMODORO
+// reference from https://www.youtube.com/watch?v=MtYR2vCs2R0&t=4s
+
+#setTime {
+    display: flex;
+    flex-direction: column;
+}
+.timePomo {
+    display: flex;
+    justify-content: center;
+    margin-bottom:7px;
+}
+
+.pomodoroTimer li{
+    padding:0;
+
+}
+label {
+    font-family: "Tenorite";
+    font-size: 14px;
+    font-weight: bold;
+}
+input {
+    padding:0;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+.break {
+    margin-top: 5px;
+}
+
+#pomodoroSave {
+    background-color: #FD8E8E;
+    min-width: 47%;
+    border-radius: 5px;
+    border: none;
+}
+
+#pomodoroSave:hover {
+    cursor: pointer;
+    background-color: #EF7E7E;
+}
+
+#pomodoroStart {
+    background-color: #A9E090;
+    min-width: 47%;
+    border-radius: 5px;
+    border: none;
+}
+
+#pomodoroStart:hover {
+    cursor: pointer;
+    background-color: #7dbd60;
+}
+
+#pomodoroTimer ul{
+    padding: 0;
+}
+// circle
+.progress-ring{
+    position: relative;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.progress-ring-circle {
+    transition: 1s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke:#FD8E8E;
+}
+
+// adding ring behind the progress ring
+.static-ring{
+    position: absolute;
+    display: flex;
+    top:5%;
+    margin-left: 7px;
+}
+
+.static-ring-circle{
+    stroke:#dadfe9;
+}
+
+a .tulip{
+    position: absolute;
+    display: flex;
+    top:23%;
+    margin-left: 53px;
+
+}
+
+.almostDone {
+    stroke:#d46767;
+}
+
+// styling buttons
+.pomodoro-btns{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#pomodoroPause {
+    background-color: #FD8E8E;
+    min-width: 47%;
+    border-radius: 5px;
+    border: none;
+}
+
+#pomodoroPause:hover {
+    cursor: pointer;
+    background-color: #EF7E7E;
+}
+
+#pomodoroEnd {
+    background-color: #EBEEF4;
+    min-width: 47%;
+    border-radius: 5px;
+    border: none;
+}
+
+#pomodoroEnd:hover {
+    cursor: pointer;
+    background-color: #dadfe9;
+}
+
+#userSaves {
+    font-weight: normal;
+    font-size: 13px;
+    font-style: italic;
+    color:#adb5c6;
 }

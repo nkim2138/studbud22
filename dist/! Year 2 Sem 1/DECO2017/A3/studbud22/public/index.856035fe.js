@@ -4,6 +4,7 @@ const toDoTasks = document.querySelectorAll(".taskAssigned");
 const taskColumns = document.querySelectorAll(".columnInfo");
 // at the beginning we don't know what item will be draggable
 let draggableTasks = null;
+localStorage.setItem("input", "task");
 // looping through other to do tasks
 toDoTasks.forEach((taskAssigned)=>{
     taskAssigned.addEventListener("dragstart", dragStart);
@@ -112,7 +113,7 @@ function addTask(name, description, unitofstudy, priority, dueDate, column, comp
         completionTime,
         estimatedTime,
         taskStarted: false,
-        taskCompleted: false //by default
+        taskCompleted: false
     };
     //Push task object to taskList Array
     taskListArray.push(task);
@@ -173,16 +174,19 @@ function renderTask(task1) {
     // task created by user can be dropped in other columns
     item.addEventListener("dragstart", dragStart);
     item.addEventListener("dragend", dragEnd);
-    // console.log(item);
     function clickCreatedTask() {
         let createdTask = document.createElement("div");
         createdTask.setAttribute("id", "createdTask");
     }
     //add user interactions to the elements
     //extra task DOM elements - eg. deleting a task that was created by mistake
-    let delButton = document.createElement("button");
+    // let delButton = document.createElement("div");
     //text node
-    let delButtonText = document.createTextNode("Delete Task");
+    // delButton.innerHTML = '&times;';
+    // delButton.setAttribute("class", "deleteTask");
+    let delButton = document.createElement("button");
+    // //text node
+    let delButtonText = document.createTextNode("Delete");
     delButton.appendChild(delButtonText);
     //delete button to appear on screen after a task is created
     item.appendChild(delButton);
