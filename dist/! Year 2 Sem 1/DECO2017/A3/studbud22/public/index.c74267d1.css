@@ -17,6 +17,7 @@
 
 .columns {
   width: 20%;
+  position: relative;
 }
 
 .columns h5 {
@@ -469,6 +470,47 @@ a {
 .popup #stopwatchAndPomodoro {
   width: 200px;
   height: 250px;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 15px;
+  position: fixed;
+  bottom: 22px;
+  left: 25%;
+  overflow: hidden;
+  transform: scale(0);
+  box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+#smallTimerDisplay {
+  width: 200px;
+  height: 20px;
+  z-index: 1;
+  background-color: #fafafa;
+  border-radius: 12px;
+  padding: 15px;
+  position: absolute;
+  bottom: 22px;
+  left: 25%;
+  box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+.arrowIcon:hover {
+  cursor: pointer;
+}
+
+.timerDisplayContent {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+
+.timerDisplayContent p {
+  font-size: 14px;
+}
+
+.popup.active #stopwatchAndPomodoro {
+  width: 200px;
+  height: 250px;
   z-index: 2;
   background: #fafafa;
   border-radius: 12px;
@@ -477,6 +519,7 @@ a {
   bottom: 22px;
   left: 25%;
   overflow: hidden;
+  transform: scale(1);
   box-shadow: 1px 4px 5px #0d2c5415;
 }
 
@@ -712,15 +755,62 @@ a .tulip {
 
 .popup #musicPlayer {
   width: 200px;
-  height: 250px;
-  z-index: 2;
+  height: 300px;
   background: #fafafa;
   border-radius: 12px;
   padding: 15px;
   position: fixed;
   bottom: 22px;
   left: 5%;
+  transform: scale(1);
   box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+#smallMusicDisplay {
+  width: 200px;
+  height: 20px;
+  z-index: 2;
+  z-index: 1;
+  background: green;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+  bottom: 22px;
+  left: 5%;
+  box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+#smallMusicDisplay:hover {
+  cursor: pointer;
+}
+
+#smallMusicImage {
+  width: 40px;
+  height: 40px;
+  background: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  box-shadow: 1px 4px 5px #0d2c5415;
+}
+
+.music-loading {
+  width: 20px;
+  height: 3px;
+  background: #fafafa;
+}
+
+.imageandplayer {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.music-buttons {
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+  display: flex;
 }
 
 html, body {

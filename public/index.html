@@ -14,8 +14,8 @@
   <nav class="top-nav">
     <ul class = "top-nav-list">
       <li><a href=""><img class="logo" src= "images/logo.png" alt= "logo" width= 35% height= auto/></a></li>
-      <li class="nav-item" id="selectTask"><a href="index.html" class= "active"><h4>Task</h4></a></li>
-      <li class="nav-item" id="selectResources"><a href=""><h4>Resources</h4></a></li>
+      <li class="nav-item" id="selectTask"><a href="index.html" class= "active">Task</a></li>
+      <li class="nav-item" id="selectResources"><a href="resources.html">Resources</a></li>
       <!-- <li class="weekly-goal"><h4>Weekly Goal:</h4></li> -->
     </ul>
   </nav>
@@ -169,15 +169,42 @@
 <!-- add task and column -->
     <ul class ="bottom-nav-list">
       <li class ="musicandTime">
-           <!-- MUSIC PLAYER -->
+
+
+
+           <!-- ----------------------MUSIC PLAYER ----------------------------->
          <div class="popup" id="musicPopup">
           <div class = "transparent-overlay" onclick="togglePopupTask()">
             <div id = "musicPlayer">
-              <div class = "musicPlayerContent">
+              <div class ="musicPlayerContent">
+
               </div>
             </div>
           </div>
-       </div>
+        </div>
+
+       <div id ="smallMusicDisplay" >
+        <div class = "musicDisplayContent" >
+          <div class = "imageandplayer">
+            <div id="smallMusicImage"  class ="musicImage"></div>
+            <div class="buttons-loading">
+              <div class = "music-buttons">
+                <img class="backIcon" src= "images/back.png" alt= "music back button" width= 8% height= 8%/>
+                <img class="playIcon" src= "images/play.png" alt= "play music" width= 12% height= 12%/>
+                <img class="timerIcon" src= "images/skip.png" alt= "skip music" width= 8% height= 8%/>
+              </div>
+              <div class = "music-loading">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
       <!--------------------------------STOPWATCH & POMODORO---------------------------------->
       <!-- reference from https://www.youtube.com/watch?v=yhhFXNHKpsk&t=8s -->
       <div class="popup" id="stopwatchPomodoroPopup">
@@ -190,7 +217,7 @@
                     <p class = "pomoActive" onclick="active2()">Pomodoro</p>
                   </li>
                   <li>
-                    <div class="close-btn" id = "closeStop">&times;</div>
+                    <div class="close-btn" id = "closeStop" onclick="toggleTimer()">&times;</div>
                   </li>
                 </ul>
                </nav>
@@ -265,12 +292,23 @@
                   </li>
 
                 </ul>
+                
                </div>
-
+               
              </div>
           </div>
-    </li>
+          
         </div>
+        
+      <div id ="smallTimerDisplay" >
+        <div class = "timerDisplayContent" >
+          <img class="timerIcon" src= "images/timer.png" alt= "logo" width= 8% height= 8%/>
+          <p>Stopwatch + Pomodoro</p>
+          <img onclick ="toggleTimer()" class="arrowIcon" src= "images/arrowUp.png" alt= "logo" width= 7% height= 8%/>
+        </div>
+      </div>
+
+    </li>
         
          
       <li class = "taskColumn-btns">

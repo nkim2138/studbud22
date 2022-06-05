@@ -3,10 +3,59 @@
     background: #FAFAFA;
     bottom: 22px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     border-radius: 12px;
+    padding: 15px;
+    box-shadow: 1px 4px 5px #0D2C5415;
+    left: 5%;
+    transform: scale(1);
+}
+
+#smallMusicDisplay {
+    position: absolute;
+    background: green;
+    bottom: 22px;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
     z-index: 2;
     padding: 15px;
     box-shadow: 1px 4px 5px #0D2C5415;
     left: 5%;
+    z-index: 1;
+
+}
+
+#smallMusicDisplay:hover {
+    cursor: pointer;
+}
+
+#smallMusicImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fafafa;
+    box-shadow: 1px 4px 5px #0D2C5415;
+    position: absolute;
+    display: flex;
+
+}
+
+.music-loading {
+    width:20px;
+    height:3px;
+    background: #fafafa;
+}
+
+.imageandplayer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:5px;
 }

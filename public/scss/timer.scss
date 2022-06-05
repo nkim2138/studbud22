@@ -6,17 +6,63 @@
     width: 200px;
     height: 250px;
     border-radius: 12px;
-    z-index: 2;
     padding: 15px;
     box-shadow: 1px 4px 5px #0D2C5415;
     left: 25%;
     overflow: hidden;
+    transform: scale(0);
+  }
+
+
+  
+#smallTimerDisplay {
+    position:absolute;
+    background-color: #FAFAFA;
+    bottom: 22px;
+    width: 200px;
+    height: 20px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 1px 4px 5px #0D2C5415;
+    left: 25%;
+    z-index: 1;
+
+}
+
+.arrowIcon:hover {
+    cursor: pointer;
+}
+
+.timerDisplayContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.timerDisplayContent p {
+    font-size: 14px;
+}
+
+
+.popup.active #stopwatchAndPomodoro {
+    position: fixed;
+    background: #FAFAFA;
+    bottom: 22px;
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    z-index: 2;
+    padding: 15px;
+    box-shadow: 1px 4px 5px #0D2C5415;
+    left: 25%;
+    overflow: hidden; //hides other elements outside the container
+    transform: scale(1);
   }
 
   #stopwatchContent{
     margin-top: 15px;
     margin-right: 10px;
-}
+ }
   #stopwatchContent p {
       display: flex;
   }

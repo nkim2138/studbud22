@@ -8,7 +8,7 @@ app.use(express.static('dist'));
 
 //when user lands on root URL then we will run a function which gets the request that user made
 app.get('/', function(req, res){
-    res.sendFile(__dirname + '/dist/index.html')
+    res.sendFile(__dirname + '/public/index.html')
 })
 
 let server = app.listen(8888, function(){

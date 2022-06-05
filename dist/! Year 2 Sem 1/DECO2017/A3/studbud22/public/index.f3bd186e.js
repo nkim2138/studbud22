@@ -21,5 +21,9 @@ function active1() {
     pomodoroButton.style.borderBottom = "none";
     stopwatchButton.style.borderBottom = "3px solid #EF7E7E";
 }
+function toggleTimer() {
+    document.getElementById("stopwatchPomodoroPopup").classList.toggle("active");
+    console.log("Pop");
+}
 
 //# sourceMappingURL=index.f3bd186e.js.map

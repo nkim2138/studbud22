@@ -29,3 +29,9 @@ function active1(){
     stopwatchButton.style.borderBottom="3px solid #EF7E7E";
     
 }
+
+
+function toggleTimer() {
+    document.getElementById("stopwatchPomodoroPopup").classList.toggle("active");
+    console.log("Pop");
+}

@@ -4,7 +4,7 @@ const toDoTasks = document.querySelectorAll(".taskAssigned");
 const taskColumns = document.querySelectorAll(".columnInfo");
 // at the beginning we don't know what item will be draggable
 let draggableTasks = null;
-localStorage.setItem("input", "task");
+// localStorage.setItem("input", "task");
 // looping through other to do tasks
 toDoTasks.forEach((taskAssigned)=>{
     taskAssigned.addEventListener("dragstart", dragStart);
